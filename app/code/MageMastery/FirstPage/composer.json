@@ -1,0 +1,26 @@
+{
+    "name": "magemastery/module-firstpage",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        },
+        {
+            "email": "gautamndsl@gmail.com",
+            "name": "gautam keshri"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MageMastery\\FirstPage\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
